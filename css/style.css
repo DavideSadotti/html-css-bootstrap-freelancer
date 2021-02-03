@@ -73,3 +73,32 @@ nav{
   height: 200px;
   background-color: green;
 }
+
+/* SECTION ABOUT */
+.about{
+  background-color: #1abc9c;
+  color: white;
+}
+
+.about h2{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* SECTION CONTACT */
+
+
+
+
+
+
+
+/* FOOTER */
