@@ -15,7 +15,7 @@ nav{
   margin-bottom: 0 !important;
 }
 
-.nav_top h2{
+.nav_top h3{
   font-size: 28px;
   font-weight: 700;
   margin-top: 35px;
@@ -52,4 +52,24 @@ nav{
 .banner_hero{
   height: 700px;
   background-color: #1abc9c;
+}
+
+/* SECTION PORTFOLIO */
+.portfolio{
+  text-align: center;
+}
+
+.portfolio h2{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.box-portfolio{
+  padding: 15px;
+}
+
+.box-piccolo{
+  height: 200px;
+  background-color: green;
 }
