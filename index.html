@@ -21,18 +21,16 @@
           <div class="row nav_top">
             <div class="col-sm-5">
               <h3>start bootstrap</h3>
-              <button type="button" class="navbar-toggle" data-toggle="collapse">
-                <span class="icon-bar icon_bar"></span>
-                <span class="icon-bar icon_bar"></span>
-                <span class="icon-bar icon_bar"></span>
-              </button>
             </div>
-            <div class="col-sm-7 collapse navbar-collapse text_right">
-              <ul>
+            <div class="col-sm-7 text_right">
+              <ul class="visible-md visible-lg">
                 <li><a href="#">portfolio</a></li>
                 <li><a href="#">about</a></li>
                 <li><a href="#">contact</a></li>
               </ul>
+              <button type="button" class="btn btn_nav hidden-md hidden-lg" data-toggle="collapse">
+                Menu <i class="fas fa-bars"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -99,13 +97,13 @@
               <div class="divider-line"></div>
             </div>
             <div class="col-md-4 col-md-offset-2">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div class="col-md-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div class="col-xs-12 text-center">
-              <button type="button" name="button">Free Download!</button>
+              <button type="button" name="button" class="btn btn_about"><i class="fas fa-download"></i> Free Download!</button>
             </div>
           </div>
         </div>
@@ -149,7 +147,7 @@
           <div class="row">
             <div class="col-md-4">
               <h4>Location</h4>
-              <p>2215 John Daniel Drive Clark, MO 65243</p>
+              <p>2215 John Daniel Drive <br> Clark, MO 65243</p>
             </div>
             <div class="col-md-4">
               <h4>Around the web</h4>
