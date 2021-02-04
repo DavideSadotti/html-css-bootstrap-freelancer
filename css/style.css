@@ -55,7 +55,6 @@ nav{
 
 /* BANNER HERO / JUMBOTRON */
 .banner_hero{
-  height: 500px;
   padding: 100px 0;
   background-color: #1abc9c;
   margin-top: 100px;
@@ -73,6 +72,10 @@ nav{
   text-transform: uppercase;
   font-weight: 700;
   font-size: 64px;
+}
+
+.banner_hero .divider-line, .about .divider-line{
+  background-color: white;
 }
 
 /* SECTION PORTFOLIO */
@@ -110,10 +113,16 @@ nav{
 }
 
 .box-piccolo{
-  height: 200px;
+  height: 100%;
   background-color: green;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.portfolio img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 /* SECTION ABOUT */
@@ -121,10 +130,6 @@ nav{
   background-color: #1abc9c;
   color: white;
   padding: 50px 0;
-}
-
-.about .divider-line{
-  background-color: white;
 }
 
 .btn_about{
