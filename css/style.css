@@ -251,6 +251,14 @@ nav{
   width: 21px;
 }
 
+.social li:hover{
+  background-color: white;
+}
+
+.social li:hover i{
+  color: #2c3e50;
+}
+
 .social h4{
   text-transform: uppercase;
   font-size: 24px;
