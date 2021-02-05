@@ -24,6 +24,7 @@ nav{
   font-weight: 700;
   margin-top: 35px;
   display: inline-block;
+  white-space: nowrap;
 }
 
 .nav_top button{
@@ -83,12 +84,12 @@ nav{
   font-size: 64px;
 }
 
-.banner_hero .divider-line, .about .divider-line{
+.banner_hero .divider-line, #about .divider-line{
   background-color: white;
 }
 
 /* SECTION PORTFOLIO */
-.portfolio{
+#portfolio{
   text-align: center;
   margin: 50px auto;
 }
@@ -159,7 +160,7 @@ nav{
   transform: translate(-50%, -50%);
 }
 
-.portfolio img{
+#portfolio img{
   width: 100%;
   height: auto;
   border-radius: 8px;
@@ -173,13 +174,13 @@ nav{
 
 
 /* SECTION ABOUT */
-.about{
+#about{
   background-color: #1abc9c;
   color: white;
   padding: 50px 0;
 }
 
-.about p{
+#about p{
   font-size: 20px;
   font-family: 'Lato', sans-serif;
   margin-bottom: 50px;
@@ -192,19 +193,19 @@ nav{
   padding: 16px 28px;
 }
 
-.portfolio h2, .about h2, .contact h2{
+#portfolio h2, #about h2, #contact h2{
   text-transform: uppercase;
   font-weight: 700;
   font-size: 48px;
   text-align: center;
 }
 
-.portfolio h2, .contact h2{
+#portfolio h2, #contact h2{
   color: #2c3e50;
 }
 
 /* SECTION CONTACT */
-.contact{
+#contact{
   font-size: 24px;
   margin: 50px 0;
   color: #495057;
